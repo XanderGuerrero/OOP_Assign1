@@ -1,0 +1,18 @@
+Bugs detected
+
+1.if input is -0.0, program will display user has a -0.00% average
+2.if input is a mix of integers and characters, the program still will
+  extract the numbers and calculate the average (ex. if input is 1 e 3 r 5,
+  average is calculated to be 0.20%.
+3.if a negative value is entered as one of the five assignment marks, the
+  average is still calculated and displayed if the average is within 0 and 100.  
+  If the average is outside of that range, the average is 0.00.
+4.if the double is entered as a negative, the average is calculated to be 0.00.
+5.if a number is entered as a combination of letters, "." and numbers, the 
+  program caluclates the input as 0.00 and classifies it as a fail condition.
+6.The program allows more than 5 numbers to be typed in but only 5 digits are
+  extracted at most.
+7.if float data and int data are entered, the program still tries to calculate
+  an average but the total is incorrect.
+8.if a series of "." or a single "." is entered the program calculates a 0.00%
+  average and assigns a fail condition.      
